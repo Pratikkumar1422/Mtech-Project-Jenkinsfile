@@ -11,7 +11,7 @@ pipeline{
         }*/
         stage("SCM Checkout"){
             steps{
-                git 'http://localhost:3000/pratik/Train-ticket.git'
+                git 'https://github.com/Pratikkumar1422/MTech-Project-project-code.git'
             }
         }
         stage("Build & Test"){
